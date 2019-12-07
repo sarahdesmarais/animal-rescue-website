@@ -1,0 +1,88 @@
+html {
+  font-family: Lora, serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.btn-dark {
+  background-color: #84909c;
+  border-color: #84909c;
+}
+
+.banner {
+  min-height: 16em;
+  max-height: 24em;
+  overflow: hidden;
+  position: relative;
+  background-color: #2b3d53;
+}
+
+.text-dark {
+  color: #808080;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-blue {
+  color: #2b3d53;
+}
+
+.light-grey {
+  background-color: #f4f4f4;
+}
+
+.blue {
+  background-color: #2b3d53;
+}
+
+.nav a:hover {
+  color: #2b3d53;
+}
+
+.card {
+  border: 3px solid #e4e4e4;
+  border-radius: .5rem;
+}
+
+.banner-content {
+  position: absolute;
+}
+
+.hover-box-caption {
+  color: #fff;
+  opacity: 0;
+}
+
+.hover-box:hover .hover-box-caption,
+.hover-box:focus .hover-box-caption {
+  opacity: 1;
+  transition: all .2s linear;
+}
+
+.hover-box-img {
+  transition: all .2s linear;
+}
+
+.hover-box:hover .hover-box-img,
+.hover-box:focus .hover-box-img {
+  transform: scale(1.1);
+}
+
+.text-card {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .text-card {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+}
