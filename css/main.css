@@ -78,6 +78,18 @@ a {
   padding-right: 2rem;
 }
 
+hr {
+  border-color: #2b3d53;
+}
+
+textarea {
+  height: 10em;
+}
+
+fieldset {
+  border: none;
+}
+
 @media only screen and (min-width: 38em) {
 
   .text-card {

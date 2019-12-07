@@ -39,10 +39,81 @@
       <img class="embed-item" src="images/banner-dog3.jpg" alt="dog image">
     </section>
 
-    <section class="light-grey push-0 text-center pad-t pad-b-2">
+    <section class="push-0 text-center pad-t pad-b-2">
       <div class="wrapper">
         <h2 class="push pad-t">Adopt</h2>
+        <p>Providing a home to a dog in need is a rewarding experience, and we thank you for considering adoption. Please fill out the adoption application below to ensure that it is a good match. </p>
       </div>
+    </section>
+
+    <section>
+      <form class="wrapper" method="POST" action="https://formspree.io/desm0044@algonquinlive.com">
+      <hr class="push-2">
+      <fieldset class="push-1-4 pad-b">
+        <legend class="giga push-1-4">Personal</legend>
+        <div class="grid pad-t">
+          <div class="push unit [ xs-1 s-1 m-1-2 l-1-2 ] gutter-1-2">
+            <label class="push-1-8" for="firstname">First Name</label>
+            <input class="push-1-8" id="firstname" name="firstname" required>
+          </div>
+          <div class="push unit [ xs-1 s-1 m-1-2 l-1-2 ] gutter-1-2">
+            <label class="push-1-8" for="lastname">Last Name</label>
+            <input class="push-1-8" id="lastname" name="lastname" required>
+          </div>
+          <div class="push unit [ xs-1 s-1 m-1-2 l-1-2 ] gutter-1-2">
+            <label class="push-1-8" for="birthday">Date of birth</label>
+            <input id="birthday" name="birthday" type="date" required>
+          </div>
+          <div class="push unit [ xs-1 s-1 m-1-2 l-1-2 ] gutter-1-2">
+            <label class="push-1-8" for="email">Email</label>
+            <input id="email" name="email" type="email" required>
+          </div>
+          <div class="push unit [ xs-1 s-1 m-1-2 l-1-2 ] gutter-1-2">
+            <label class="push-1-8" for="number">Phone Number</label>
+            <input id="number" name="number" type="tel" required>
+          </div>
+        </div>
+      </fieldset>
+      <hr class="push-2">
+
+      <fieldset class="push-1-4 pad-b">
+        <legend class="giga push-1-4">Address</legend>
+        <div class="grid pad-t">
+          <div class="push unit [ xs-1 s-1 m-1-2 l-1-2 ] gutter-1-2">
+            <label class="push-1-8" for="street">Address</label>
+            <input class="push-1-2" id="street" name="street" required>
+          </div>
+          <div class="push unit [ xs-1 s-1 m-1-2 l-1-2 ] gutter-1-2">
+            <label class="push-1-8" for="city">City</label>
+            <input class="push-1-2" id="city" name="city" required>
+          </div>
+          <div class="push unit [ xs-1 s-1 m-1-2 l-1-2 ] gutter-1-2">
+            <label class="push-1-8" for="province">Province</label>
+            <select class="push-1-2" id="province" name="_province">
+              <option value="">Select</option>
+              <option>Alberta</option>
+              <option>British Columbia</option>
+              <option>Manitoba</option>
+              <option>New Brunswick</option>
+              <option>Newfoundland & Labrador</option>
+              <option>Northwest Territories</option>
+              <option>Nova Scotia</option>
+              <option>Nunavut</option>
+              <option>Ontario</option>
+              <option>Prince Edward Island</option>
+              <option>Québec</option>
+              <option>Saskatchewan</option>
+              <option>Yukon</option>
+            </select>
+          </div>
+          <div class="push unit [ xs-1 s-1 m-1-2 l-1-2 ] gutter-1-2">
+            <label class="push-1-8" for="postal">Postal Code</label>
+            <input class="push-1-2" id="postal" name="postal" required>
+          </div>
+        </div>
+      </fieldset>
+      <hr class="push-2">
+
     </section>
   </main>
 
